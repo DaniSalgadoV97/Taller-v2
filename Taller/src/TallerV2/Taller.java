@@ -14,4 +14,15 @@ public class Taller {
         r = x - y;
     }
 
+    public void setx(float x) {
+        this.x = x;
+    }
+
+    public void sety(float y) {
+        this.y = y;
+    }
+
+    public float getr(float r) {
+        return r;
+    }
 }

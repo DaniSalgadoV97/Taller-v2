@@ -14,7 +14,7 @@ public class Dueño {
     String genreK;
 
     boolean ebrio() {
-        if (alcoholLevel > 3) {
+        if (alcoholLevel >=3) {
             return true;
         }
         return false;
